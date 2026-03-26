@@ -1,36 +1,29 @@
-### **Step-by-Step Solution: Centripetal Acceleration on Earth's Equator**
+### **Step-by-Step Solution: Centripetal Acceleration at the Equator**
 
-To find the centripetal acceleration ($a_c$), we need to know how fast the Earth rotates and the distance of the person from the center of rotation (the Earth's radius).
+To find the centripetal acceleration ($a_c$) of a person on the Earth's equator, we need to determine the radius of the Earth and the speed of its rotation.
 
 
 ---
 
 #### **1. Identify the Given Values**
-* **Radius ($R$):** $6378 \text{ km} = 6,378,000 \text{ m}$ (standard SI units)
-* **Time Period ($T$):** One full rotation of the Earth takes approximately 24 hours.
-    $$T = 24 \text{ hours} \cdot 3600 \text{ s/hour} = 86,400 \text{ s}$$
+* **Radius ($R$):** $6378 \text{ km} = 6,378,000 \text{ m}$
+* **Time Period ($T$):** The Earth completes one full rotation in approximately 24 hours.
+    $$T = 24 \text{ h} \cdot 3600 \text{ s/h} = 86,400 \text{ s}$$
 
 ---
 
 #### **2. Calculate the Angular Velocity ($\omega$)**
-Angular velocity is the rate of rotation in radians per second:
+Angular velocity is the rate at which the Earth rotates in radians per second:
 $$\omega = \frac{2\pi}{T}$$
 $$\omega = \frac{2\pi}{86,400} \approx 7.272 \times 10^{-5} \text{ rad/s}$$
 
 ---
 
-#### **3. Calculate the Tangential Velocity ($v$)**
-This is the speed at which a person on the equator is moving through space due to rotation:
-$$v = \omega \cdot R$$
-$$v = (7.272 \times 10^{-5}) \cdot (6,378,000) \approx 463.8 \text{ m/s}$$
-
----
-
-#### **4. Calculate the Centripetal Acceleration ($a_c$)**
+#### **3. Calculate the Centripetal Acceleration ($a_c$)**
 The formula for centripetal acceleration is:
-$$a_c = \frac{v^2}{R} \quad \text{or} \quad a_c = \omega^2 R$$
+$$a_c = \omega^2 \cdot R$$
 
-Using $a_c = \omega^2 R$:
+Plugging in our values:
 $$a_c = (7.272 \times 10^{-5})^2 \cdot 6,378,000$$
 $$a_c = (5.288 \times 10^{-9}) \cdot 6,378,000$$
 $$a_c \approx \mathbf{0.0337 \text{ m/s}^2}$$
@@ -39,7 +32,8 @@ $$a_c \approx \mathbf{0.0337 \text{ m/s}^2}$$
 
 ### **Final Results Summary**
 
-* **Tangential Speed:** $\approx 464 \text{ m/s}$ (about $1,670 \text{ km/h}$)
-* **Centripetal Acceleration:** $\approx \mathbf{0.0337 \text{ m/s}^2}$
+* **Earth's Radius ($R$):** $6,378,000 \text{ m}$
+* **Rotational Period ($T$):** $86,400 \text{ s}$
+* **Centripetal Acceleration ($a_c$):** $\approx \mathbf{0.0337 \text{ m/s}^2}$
 
-> **Note:** For comparison, the acceleration due to gravity ($g$) is $9.81 \text{ m/s}^2$. The centripetal acceleration at the equator is only about **0.34%** of gravity, which is why we don't feel like we are being "flung" off the planet.
+**Note:** For perspective, this is very small compared to the acceleration due to gravity ($g \approx 9.8 \text{ m/s}^2$). It represents only about **0.34%** of gravity, which is why we don't feel the effects of this circular motion in our daily lives.
