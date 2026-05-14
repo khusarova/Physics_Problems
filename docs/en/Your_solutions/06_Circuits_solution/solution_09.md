@@ -1,5 +1,3 @@
-Here is the step-by-step solution and explanation for the problem presented in `image_93e691.png`.
-
 ### Problem Analysis
 
 We are given a function representing the amount of electric charge flowing through a wire over time, and we need to calculate the electric current at a specific moment.
